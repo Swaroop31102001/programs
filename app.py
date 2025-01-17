@@ -18,6 +18,7 @@ EMAIL_PASSWORD = 'wtiq ghhb txsm zbze'
 EMAIL_RECEIVER = 'swaroop102001@gmail.com'
 
 app = Flask(__name__)
+application = app
 
 # Initialize YOLOv5 Model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5x', device='cpu')  # YOLOv5x for people and phone detection
